@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+* {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 150%;
+    margin: 0;
+}
 #form {
     position: absolute;
     transform: translate(-50%, -50%);
@@ -18,16 +24,31 @@
     border-radius: 6px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 80px;
+    font-size: 100%;
 }
 
 body {
     background-color: black;
     transition: background-color 0.8s;
+    overflow-x: hidden;
 }
 
-* {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 80px;
+footer {
+    position: fixed;
+    width: 10vh;
+    height: 10vh;
+    padding: 1%;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #333;
+    border-radius: 25px;
+}
+
+h2 {
+    font-size: 50%;
+}
+
+#github-logo {
+    width: 100%;
 }
