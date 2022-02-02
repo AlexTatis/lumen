@@ -29,8 +29,6 @@
 }
 
 body {
-    background-color: black;
-    transition: background-color 0.8s;
     overflow-x: hidden;
 }
 
@@ -67,6 +65,8 @@ h2 {
 }
 
 #lumen-response, #algo-response {
+    background-color: black;
+    transition: background-color 0.8s;
     flex-grow: 1;
     width: 50%;
     height: 100%;
