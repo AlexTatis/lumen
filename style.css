@@ -71,3 +71,12 @@ h2 {
     width: 50%;
     height: 100%;
 }
+
+.response-tag {
+    position: relative;
+    bottom: 1%;
+    left: 50%;
+    top: 90vh;
+    transform: translate(-50%, -50%);
+
+}
